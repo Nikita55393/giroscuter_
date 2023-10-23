@@ -23,10 +23,6 @@ header{
     margin-bottom: 20px;
     display: flex;
 }
-.ss{
-    text-decoration: none;
-    color: black;
-}
 .tel{
     width: 184px;
     height: 37px;
@@ -90,7 +86,7 @@ hr{
     padding-bottom: 150px;
     position: absolute;
     top:40%;
-    left:4%;
+    left:14%;
     text-transform: uppercase;
     text-align: center;
 }
@@ -151,10 +147,10 @@ h1{
     text-align: justify;
     text-align: center;
 }
-.preimpadding{
+.preim_padding{
     margin-left: 110px;
 }
-.preimpadding2{
+.preim_padding2{
     margin-left: 20px;
 }
 .preim_treug{
@@ -178,28 +174,33 @@ h1{
     height: 94px;
     width: 100%;   
 }
-INPUT[type="text"] {
-    background-color: #FFA019;
-    color: #fff;
-    border: 1px solid #FFF;
-    width: 263px;
-    height: 35px; 
-    margin-top: 10px;
-}
 #email p{
     color: #FFF;
     font-size: 18px;   
     font-weight: 600;
     width: 316px;
     height: 79px;
-    margin-right: 30px;
+    margin-right: 149px;
+}
+.email_name{
+    width: 265px;
+    height: 37px;
+    border: 1px solid #FFF;
+    background: #FFA019;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 21px;
+    margin-left: auto;
+    margin-right: 15px;
 }
 .email_sub{
-    width: 265px;
-    height: 37px; 
+    width: 184px;
+    height: 37px;
     font-size: 14px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 21px;
     margin-left: auto;
     background: #FFF;
     border: none;
@@ -227,13 +228,12 @@ INPUT[type="text"] {
 }
 
 #katalog{
+    background: rgba(251, 251, 251, 0.47);
     padding-top: 33px;
-    background: #fbfbfb;
 }
 .katalog{
     margin-left: auto;
     padding-top: 27px;
-    
 }
 .katalog button{
     margin-left: 38px;
@@ -291,14 +291,10 @@ INPUT[type="text"] {
 .consultant_box{
     margin-right: 180px;
     margin-left: auto;
-    background: #fbfbfb;
 }
 .consultant_box img{
     width: 60%;
     margin-right: 27px;
-}
-.fon{
-    background: #fbfbfb;
 }
 .name{
     font-size: 20px;
@@ -343,7 +339,7 @@ INPUT[type="text"] {
 }
 .infoPol{
     margin-top: 70px;
-    margin-bottom: 105px;
+    margin-bottom: 165px;
 }
 #infoPol_box{
     margin-right: 60px;
@@ -357,18 +353,16 @@ INPUT[type="text"] {
     filter: brightness(40%);
 }
 .infotext{
-    margin-right: 10px;
+    margin-right: 60px;
+    margin-left: auto;
 }
 .infotextimg{
-    color: white;
-    vertical-align:middle;
-    display:table-cell;
-    padding-bottom: 150px;
     position: absolute;
-    top:35%;
-    left:5%;
-    width: 240px;
+    top:40%;
+    left:15%;
     text-transform: uppercase;
+    padding: 10px;
+    color:white;
     text-align: center;
 }
 footer{
